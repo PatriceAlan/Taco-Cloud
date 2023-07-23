@@ -1,0 +1,11 @@
+server:
+  error:
+    include-message: always
+    include-binding-errors: always
+
+spring:
+  datasource:
+    generate-unique-name: false
+    name: taco-cloud
+    username: taco-cloud
+    password: taco-cloud
